@@ -1,0 +1,45 @@
+body {
+    /* padding: 50px; */
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-content {
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+main{
+    padding: 20px;
+}
+.highlightspan td span{
+    background-color: yellow;
+}
