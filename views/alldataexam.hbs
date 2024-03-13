@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+<body>
+     <table border='3'>
+    
+    <th>name</th>
+    <th>program</th>
+    <th>id</th>
+    <th>gpa</th>
+
+
+     
+            {{!-- {{#each products}}     
+                {{{showRow this}}}             
+            {{/each}} --}}
+            <br/><br/><br/><br/><br/>
+            {{#each products}}     
+                {{{HighlightRow this}}}             
+            {{/each}}
+  
+   
+
+    </table>
+</body>
+</html>

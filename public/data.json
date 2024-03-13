@@ -1,0 +1,124 @@
+
+[
+
+    {
+  
+      "studId": 1,
+  
+      "name": "name1",
+  
+      "program": "CPAN",
+  
+      "gpa": 3.9
+  
+    },
+  
+    {
+  
+      "studId": 2,
+  
+      "name": "name2",
+  
+      "program": "",
+  
+      "gpa": 3.1
+  
+    },
+  
+    {
+  
+      "studId": 3,
+  
+      "name": "name3",
+  
+      "program": "CPAN",
+  
+      "gpa": 3.3
+  
+    },
+  
+    {
+  
+      "studId": 4,
+  
+      "name": "name4",
+  
+      "program": "ESDV",
+  
+      "gpa": 4.0
+  
+    },
+  
+    {
+  
+      "studId": 5,
+  
+      "name": "name5",
+  
+      "program": "CPAN",
+  
+      "gpa": 3.4
+  
+    },
+  
+    {
+  
+      "studId": 6,
+  
+      "name": "name6",
+  
+      "program": "",
+  
+      "gpa": 3.2
+  
+    },
+  
+    {
+  
+      "studId": 7,
+  
+      "name": "name7",
+  
+      "program": "ITS",
+  
+      "gpa": 3.5
+  
+    },
+  
+    {
+  
+      "studId": 8,
+  
+      "name": "name8",
+  
+      "program": "ESDV",
+  
+      "gpa": 3.6
+  
+    },
+  
+    {
+  
+      "studId": 9,
+  
+      "name": "name9",
+  
+      "program": "",
+  
+      "gpa": 3.3
+  
+    },
+  
+    {
+  
+      "studId": 10,
+  
+      "name": "name10",
+  
+      "program": "ESDV",
+  
+      "gpa": 3.8
+  
+    }
+  
+  ]

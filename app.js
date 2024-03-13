@@ -31,19 +31,19 @@ helpers:{
     <td><span >  ${data.categoryName} </span>  </td>
     <td> <span > ${data.isbestseller?data.isbestseller:""}</span>   </td>
     <td><span >  ${data.boughtInLastMontd?data.boughtInLastMontd:""} </span> </td><tr>`;
+    },
+    HighlightRow:function(data){
+        return `<tr style="${data.reviews>0?"":"background-color:yellow"}">
+        <td>${data.title}</td>
+        <td>   <img src='${data.imgUrl}'style="width: 30px; height: 30px;"/>   </td>
+    <td>  ${data.stars}  </td>
+    <td>  ${data.reviews==0?"N/A":data.reviews}  </td>
+    <td>  ${data.prie?data.prie:""}  </td>
+    <td>  ${data.listprice?data.listprice:""}  </td>
+    <td>  ${data.categoryName}  </td>
+    <td>  ${data.isbestseller?data.isbestseller:""}  </td>
+    <td>  ${data.boughtInLastMontd?data.boughtInLastMontd:""}  </td><tr>`;
     }
-    // showRow:function(data){
-    //     return `<tr style="${data.reviews>0?"":"background-color:yellow"}">
-    //     <td>${data.title}</td>
-    //     <td>   <img src='${data.imgUrl}'style="width: 30px; height: 30px;"/>   </td>
-    // <td>  <mark>${data.stars}</mark>  </td>
-    // <td>  ${data.reviews==0?"N/A":data.reviews}  </td>
-    // <td>  ${data.prie?data.prie:""}  </td>
-    // <td>  ${data.listprice?data.listprice:""}  </td>
-    // <td>  ${data.categoryName}  </td>
-    // <td>  ${data.isbestseller?data.isbestseller:""}  </td>
-    // <td>  ${data.boughtInLastMontd?data.boughtInLastMontd:""}  </td><tr>`;
-    // }
     
     } }));
 app.set('view engine', 'hbs');

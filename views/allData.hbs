@@ -16,18 +16,25 @@
     <th>categoryName</th>
     <th>isbestseller</th>
     <th>boughtInLastMonth</th>
-
-    {{#each products}}     
-        {{{showRow this}}}             
-     {{/each}}
-  
-    {{!-- {{#each products}}
+{{!-- this is for que 8 --}}
+     {{!-- {{#each products}}
      {{#if (gtReview reviews)}}
-      {{{showRow this}}}  
-      {{else}}
       {{{showRow this}}}  
      {{/if}} 
      {{/each}} --}}
+
+
+{{!-- this i step 9 --}}
+        {{!-- {{#each products}}     
+            {{{showRow this}}}             
+        {{/each}} --}}
+
+     {{!-- this is for 10 --}}
+            {{#each products}}     
+                {{{HighlightRow this}}}             
+            {{/each}}
+  
+   
 
     </table>
 </body>
