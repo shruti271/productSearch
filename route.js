@@ -35,7 +35,7 @@ router.get('/data', (req, res) => {
     console.log('JSON data is loaded and ready:', jsonData);    
     res.render('data',{
         data:'JSON data is loaded and ready!',
-        layout:'main.hbs'
+        ee
     })
 })
 
